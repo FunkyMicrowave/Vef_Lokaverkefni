@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <script>
+        
+    var file = document.forms["myForm"]["newImage"].value;
+var fileType = file["type"];
+var ValidImageTypes = ["image/gif", "image/jpeg", "image/png"];
+if ($.inArray(fileType, ValidImageTypes) < 0) {
+    	    alert("Something is not right");
+            return false;
+}
+        else{
+            return true;
+        }
+</script>
+</head>
+
+<body>
+     <form name="myForm" action="changeImage.php" method="post"><br>
+           Link to Image<br>
+        <input type="text" name="newImage" required><br>
+        <input value="Accept" type="submit">
+    </form>
+</body>
+</html>

@@ -1,0 +1,288 @@
+            .chatRammi{
+                width: 298px; 
+                height: 694px; 
+                background: white;
+                border: 1px solid gray; 
+                padding: 0;
+                position: relative;
+                float: left;
+                margin-bottom: 20px;
+                margin-right: 20px;
+            }
+            .chatHeader{
+                width: 298px; 
+                height: 30px;
+                background: radial-gradient(white, black); 
+                float: left; 
+                margin: 0; 
+                text-align: center;
+            }
+            .chatHeader h2{
+                margin: 0;
+            }
+            #View{
+                width: 288px; 
+                height: 628px; 
+                background: white; 
+                float: left; 
+                bottom: 0; 
+                margin: 0;
+                padding: 5px;
+                overflow: hidden;
+            }
+            .chatInput{
+                width: 298px; 
+                height: 24px; 
+                border-top: 1px solid gray; 
+                background: white; 
+                float: left; 
+                bottom: 0; 
+                margin: 0; 
+                padding: 0px;
+                position: absolute;
+                bottom: 0;
+            }
+            .chatInput form{
+                height: 22px; 
+                padding: 0;
+                width: 100%;
+            }
+            .chatInput form textarea{
+                height: 16px; 
+                max-height: 16px; 
+                width: 243px; 
+                max-width: 243px; 
+                margin-right: 0;
+                margin-bottom: 0;
+                margin-top: -1px; 
+                margin-left: -5px; 
+                border-radius: 7.5px; 
+                font-size: 100%; 
+                float: left;
+                resize: none;
+            }
+            .chatInput form{
+                height: 20px; 
+                width: 100%; 
+                margin: 0; 
+                margin-top: 2px; 
+                margin-left: 6px; 
+                float:left;
+            }
+            button{
+                border: 0;
+                background: #777;
+                border-radius: 4px;
+                box-shadow: 0 5px 0 #333;
+                color: #000;
+                cursor: pointer;
+                font: inherit;
+                margin: 0;
+                outline: 0;
+                padding: 12px 20px;
+                transition: all .1s linear;
+                margin-top: 20px;
+                margin-left: 60px;
+                position: fixed;
+            }
+#Takki1{
+    top: 120px;
+    right: 20px;
+}
+#Takki2{
+    top: 180px;
+    right: 20px;
+}
+#Takki3{
+    top: 240px;
+    right: 20px;
+}
+            #View div:first-child{
+                margin-top: 0px;
+            }
+            #View div{
+                height: auto;
+                margin-bottom: 0px;
+                margin-top: -20px;
+                display: block;
+            }
+            #View h5{
+                margin-top: 0px;
+                color: darkgray;
+            }
+            #View p{
+                width: auto;
+                max-width: 240px;
+                height: auto;
+                background: gray;
+                border-radius: 15px;
+                padding-left: 6px;
+                padding-right: 6px;
+                padding-bottom: 2px;
+                padding-top: 2px;
+                display: inline-block;
+                word-wrap: break-word;
+                margin-bottom: 0;
+            }
+            #View img{
+                height: 20px;
+                width: 20px;
+                margin-right: 5px;                
+            }
+
+    
+    
+.Book{
+    width: 996px;
+    float: left;
+    height: 664px;
+    background: #EEE;
+    padding: 15px;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    border-bottom-left-radius: 14px;
+    border-top-left-radius: 14px;
+    box-shadow: -1px 0px 30px #888888;
+    overflow-y: auto;
+}
+.Book h1{
+    margin-top: -10px;
+}
+.Pocket h2{
+    font-size: 30px;
+}
+.Pocket img{
+    height: 240px;
+    width: auto;
+    max-width: 240px;
+    border: 5px solid #AAA;
+    border-radius: 15px;
+    float: right;
+}
+.Pocket h5{
+    margin-top: -10px;
+}
+.Pocket{
+    border-radius: 55px;
+    padding: 5px;
+    height: 300px;
+    width: 456px;
+    background: #CCC;
+    margin-bottom: 30px;
+    margin-top: -10px;
+    float: left;
+    margin-left: 7.5px;
+    margin-right: 7.5px;
+}
+
+            .Book::-webkit-scrollbar-track
+            {
+                border-radius: 25px;
+                background-color: #EEE;
+            }
+
+            .Book::-webkit-scrollbar
+            {
+                width: 14px;
+                height: 200px;
+                background-color: #EEE;
+            }
+
+            .Book::-webkit-scrollbar-thumb
+            {
+                border-radius: 25px;
+                background-color: #DDD;
+            }
+#myForm1 textarea:focus{
+    background: white;
+    border: 2px solid black;
+    width: 188px; 
+    max-width: 188px; 
+    padding: 5px;
+    height: 139px;
+    max-height: 139px;
+}
+#myForm1 textarea{
+    background: #BBB;
+    border-radius: 25px;
+    padding: 7px;
+    font-size: 150%;
+    font-weight: 900;
+    width: 190px; 
+    height: 141px; 
+    max-width: 190px; 
+    max-height: 141px;
+    resize: none;
+    border: none;
+}
+#chatbox2{
+    display: none;
+    margin-left: 25px;
+    border-radius: 15px;
+    width: 100px;
+    height: 30px;
+    background: #BBB;
+    font-weight: 900;
+    overflow: hidden;
+}
+#myForm1 textarea:focus ~ #chatbox2,
+#chatbox2:active{
+    display: block;
+}
+#about{
+    height: 141px;
+    width: 190px;
+    max-height: 141px;
+    max-width: 190px;
+    font-size: 150%;
+    font-weight: 900;
+    background: #BBB;
+    border-radius: 25px;
+    padding: 7px;
+}
+.clock {
+  font-size: 2.8em;
+    text-align: center;
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    background: #777;
+    border-radius: 25px;
+    width: 170px;
+    box-shadow: 0 5px 0 #333;
+}
+@-webkit-keyframes hvr-pulse-grow {
+  to {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+  }
+}
+@keyframes hvr-pulse-grow {
+  to {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+  }
+}
+.clock {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px transparent;
+}
+.clock:hover, .clock:focus, .clock:active {
+  -webkit-animation-name: hvr-pulse-grow;
+  animation-name: hvr-pulse-grow;
+  -webkit-animation-duration: 0.3s;
+  animation-duration: 0.3s;
+  -webkit-animation-timing-function: linear;
+  animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  -webkit-animation-direction: alternate;
+  animation-direction: alternate;
+}
+#map {
+        height: 100px;
+        width: 200px;
+      }

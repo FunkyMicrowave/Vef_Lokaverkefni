@@ -1,0 +1,6 @@
+CREATE TABLE chat(
+	id INT PRIMARY KEY AUTO_INCREMENT,
+    text VARCHAR(750) NOT NULL,
+    idUser INT NOT NULL,
+    FOREIGN KEY (idUser) REFERENCES users(id)
+);
